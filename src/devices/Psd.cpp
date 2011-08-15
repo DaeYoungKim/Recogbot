@@ -1,6 +1,7 @@
 #include "devices/Psd.h"
 
-
-Recogbot::PSD::PSD(){
-	printf("PSD 持失切 called\n");
+namespace Recogbot {
+	PSD::PSD(){
+		printf("PSD 持失切 called\n");
+	}
 }
