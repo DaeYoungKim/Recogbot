@@ -3,6 +3,6 @@
 
 namespace Recogbot {
 	Wheel::Wheel(){
-		printf("Hell Wheel\n");
+		printf("Hello Wheel\n");
 	}
 }
