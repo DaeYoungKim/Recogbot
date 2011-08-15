@@ -6,6 +6,7 @@
 
 using namespace Recogbot;
 using namespace std;
+<<<<<<< HEAD
 
 void main(void) {
 
@@ -15,6 +16,11 @@ void main(void) {
 
 	PSD psd;
 	return;
+=======
+#include "devices/Psd.h"
+
+void main(void) {
+>>>>>>> chiminoh/master
 	OmniCamera omnicam;
 	cout << omnicam.connect();
 	IplImage *frame=cvCreateImage(cvSize(omnicam.getWidth(),omnicam.getHeight()),8,3);
