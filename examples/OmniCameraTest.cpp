@@ -1,11 +1,18 @@
 #include "devices/OmniCamera.h"
 #include <iostream>
 #include "opencv2/opencv.hpp"
+#include "..\include\devices\Psd.h"
+#include "devices/Wheel.h"
+
 using namespace Recogbot;
 using namespace std;
-#include "..\include\devices\Psd.h"
 
 void main(void) {
+
+	Wheel::Wheel();
+	system("pause");
+	return;
+
 	PSD psd;
 	return;
 	OmniCamera omnicam;

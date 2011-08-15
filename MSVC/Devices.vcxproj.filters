@@ -33,10 +33,10 @@
     <ClInclude Include="..\include\devices\DeviceSwig.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\devices\Whell.h">
+    <ClInclude Include="..\include\devices\Psd.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\devices\Psd.h">
+    <ClInclude Include="..\include\devices\Wheel.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,10 +56,10 @@
     <ClCompile Include="..\src\devices\DeviceSwig.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\devices\Whell.cpp">
+    <ClCompile Include="..\src\devices\Psd.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\devices\Psd.cpp">
+    <ClCompile Include="..\src\devices\Wheel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
