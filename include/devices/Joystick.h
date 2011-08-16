@@ -7,11 +7,12 @@
 
 #ifndef RECOGBOT_DEVICES_JOYSTICK_H
 #define RECOGBOT_DEVICES_JOYSTICK_H
+#include <cstdio>
 
 namespace Recogbot {
 	class Joystick {
 	public:
-	
+		Joystick();
 	};
 }
 #endif
