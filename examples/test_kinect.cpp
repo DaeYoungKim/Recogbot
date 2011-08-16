@@ -1,5 +1,4 @@
 #include "devices/kinect.h"
-#include "devices/DeviceSwig.h"
 #include <iostream>
 #include "opencv2/opencv.hpp"
 
@@ -7,10 +6,7 @@ using namespace Recogbot;
 using namespace std;
 
 void main(void) {
-
-	DeviceSwig devSwig;
-
-/*	Kinect kinect;
+	Kinect kinect;
 	kinect.init();
 	
 	IplImage *frame = cvCreateImage(cvSize(640,480),8,3);
@@ -22,5 +18,5 @@ void main(void) {
 		cvShowImage("depth",depth8);
 		cvShowImage("color",frame);
 		cvWaitKey(10);
-	}*/
+	}
 }
