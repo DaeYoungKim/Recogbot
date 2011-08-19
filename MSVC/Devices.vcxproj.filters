@@ -39,6 +39,9 @@
     <ClInclude Include="..\include\devices\Wheel.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\devices\Network.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\devices\kinect.cpp">
@@ -60,6 +63,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\src\devices\Wheel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\devices\Network.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

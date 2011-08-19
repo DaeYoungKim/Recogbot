@@ -3,43 +3,42 @@
 #include <string.h>
 #include "devices/Network.h"
 
-
 namespace Recogbot {
 
 	const char* Network::CONF_XML = "NRLAB02.xml";
+	bool Network::isConnection = false;
 
 	bool Network::Enable(){
 
 		clock_t beginTime;
-		bool state;
+		
+		if( NWrite_BootEnableNetwork((byte *)CONF_XML, strlen(CONF_XML)) ){
+			beginTime = clock();
 
-		state = NWrite_BootEnableNetwork((byte *)Network::CONF_XML, strlen(CONF_XML));
-		beginTime = clock();
-
-		while(clock() - beginTime < CLOCKS_PER_SEC || state != READY){
-			state = NWrite_BootEnableNetwork((byte *)Network::CONF_XML, strlen(CONF_XML));
+			while(clock() - beginTime < CLOCKS_PER_SEC){
+				if( NRead_NetworkState() == READY ){
+					isConnection = true;
+					break;
+				}
+			}
 		}
-		return state;
+		return isConnection;
 	}
 	
 	void Network::Disable(){
 
 		NWrite_DisableNetwork();
+		isConnection = false;
 	}
 	
 	bool Network::IsConnected(){
 
-		if(NRead_NetworkState() == READY) return true;
-		else return false;
+		return isConnection;
 	}
 	
 	Network::STATE Network::GetNetworkState(){
 
-		int state = NRead_NetworkState();
-
-		if(state == READY) return READY;
-		else if(state == SAFE_OP) return SAFE_OP;
-		else if(state == PRE_OP) return PRE_OP;
-		else return NET_INIT;
+		STATE state = (STATE) NRead_NetworkState();
+		return state;
 	}
 }
