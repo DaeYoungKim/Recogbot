@@ -1,5 +1,6 @@
 #include "devices/PSDSensor.h"
 #include "devices/Network.h"
+#include "windows.h"
 namespace Recogbot {
 	PSDSensor::PSDSensor()
 	{
@@ -9,17 +10,18 @@ namespace Recogbot {
 			Network::enable();
 			isCondition = true;
 			printf("PSD생성중\n");
+			SWrite_EnablePsd(true);
+			Sleep(1000);
 		}
-		SWrite_EnablePsd(true);
+		
 	}
 
 	bool PSDSensor::getPsdData()
 	{
-		
 		if(isCondition)
 		{
 			printf("getPsdData 실행중 \n");
-			SRead_PsdData(&psddata);
+			SRead_PsdData(&psdData);
 			return true;
 		}
 		else

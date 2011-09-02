@@ -15,7 +15,7 @@ namespace Recogbot {
 	private:
 		bool isCondition;
 	public:
-		PSD psddata;
+		PSD psdData;
 		PSDSensor();
 		bool getPsdData();
 		~PSDSensor();

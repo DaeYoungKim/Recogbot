@@ -1,12 +1,12 @@
-﻿빌드 시작: 2011-09-02 오후 2:45:46
+﻿빌드 시작: 2011-09-02 오후 9:46:03
      1>2 노드의 "C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\Devices.vcxproj" 프로젝트(rebuild 대상)입니다.
      1>_PrepareForClean:
          "..\temp\Devices\Devices.lastbuildstate" 파일을 삭제하고 있습니다.
        InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "..\temp\Devices\Devices.unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\Devices\\" /Fd"..\temp\Devices\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\devices\DeviceSwig.cpp ..\src\devices\Joystick.cpp ..\src\devices\kinect.cpp ..\src\devices\LRF.cpp ..\src\devices\MotorDriver.cpp ..\src\devices\Network.cpp ..\src\devices\OmniCamera.cpp ..\src\devices\Psd.cpp
-         Psd.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\Devices\\" /Fd"..\temp\Devices\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\devices\DeviceSwig.cpp ..\src\devices\Joystick.cpp ..\src\devices\kinect.cpp ..\src\devices\LRF.cpp ..\src\devices\MotorDriver.cpp ..\src\devices\Network.cpp ..\src\devices\OmniCamera.cpp ..\src\devices\PSDSensor.cpp
+         PSDSensor.cpp
          OmniCamera.cpp
      1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
      1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -36,7 +36,7 @@
          ..\temp\Devices\MotorDriver.obj
          ..\temp\Devices\Network.obj
          ..\temp\Devices\OmniCamera.obj
-         ..\temp\Devices\Psd.obj
+         ..\temp\Devices\PSDSensor.obj
          Devices.vcxproj -> C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\..\lib\recobotDevices.lib
        FinalizeBuildStatus:
          "..\temp\Devices\Devices.unsuccessfulbuild" 파일을 삭제하고 있습니다.
@@ -45,4 +45,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:02.04
+경과 시간: 00:00:02.32

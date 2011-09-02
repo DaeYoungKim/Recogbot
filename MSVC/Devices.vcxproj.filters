@@ -33,13 +33,13 @@
     <ClInclude Include="..\include\devices\DeviceSwig.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\devices\Psd.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\devices\Network.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\include\devices\MotorDriver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\devices\PSDSensor.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,13 +59,13 @@
     <ClCompile Include="..\src\devices\DeviceSwig.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\devices\Psd.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\devices\Network.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\src\devices\MotorDriver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\devices\PSDSensor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

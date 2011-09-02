@@ -1,4 +1,4 @@
-﻿빌드 시작: 2011-09-02 오후 2:45:48
+﻿빌드 시작: 2011-09-02 오후 9:46:05
      1>2 노드의 "C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\KinectConsoleTest.vcxproj" 프로젝트(rebuild 대상)입니다.
      1>_PrepareForClean:
          "..\temp\KinectConsoleTest\KinectConsoleTest.lastbuildstate" 파일을 삭제하고 있습니다.
@@ -31,4 +31,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:01.74
+경과 시간: 00:00:01.73
