@@ -1,0 +1,49 @@
+﻿빌드 시작: 2011-09-02 오후 1:32:01
+     1>2 노드의 "C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\Devices.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "..\temp\Devices\Devices.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "..\temp\Devices\Devices.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\Devices\\" /Fd"..\temp\Devices\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\devices\DeviceSwig.cpp ..\src\devices\Joystick.cpp ..\src\devices\kinect.cpp ..\src\devices\LRF.cpp ..\src\devices\MotorDriver.cpp ..\src\devices\Network.cpp ..\src\devices\OmniCamera.cpp ..\src\devices\Psd.cpp
+         Psd.cpp
+         OmniCamera.cpp
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Network.cpp
+         MotorDriver.cpp
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(12): warning C4551: 함수 호출에 인수 목록이 없습니다.
+         LRF.cpp
+         kinect.cpp
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Joystick.cpp
+         DeviceSwig.cpp
+         코드를 생성하고 있습니다...
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(32): warning C4715: 'Recogbot::MotorDriver::driveManual' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(37): warning C4715: 'Recogbot::MotorDriver::moveForward' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(42): warning C4715: 'Recogbot::MotorDriver::moveBackward' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(47): warning C4715: 'Recogbot::MotorDriver::rotateLeft' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(52): warning C4715: 'Recogbot::MotorDriver::rotatetRight' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(57): warning C4715: 'Recogbot::MotorDriver::loadVelocityValue' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\imfine\yongcheol(test_clone)\recogbot\src\devices\motordriver.cpp(62): warning C4715: 'Recogbot::MotorDriver::stop' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\recobotDevices.lib" /NOLOGO ..\temp\Devices\DeviceSwig.obj
+         ..\temp\Devices\Joystick.obj
+         ..\temp\Devices\kinect.obj
+         ..\temp\Devices\LRF.obj
+         ..\temp\Devices\MotorDriver.obj
+         ..\temp\Devices\Network.obj
+         ..\temp\Devices\OmniCamera.obj
+         ..\temp\Devices\Psd.obj
+         Devices.vcxproj -> C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\..\lib\recobotDevices.lib
+       FinalizeBuildStatus:
+         "..\temp\Devices\Devices.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "..\temp\Devices\Devices.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\Devices.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.05

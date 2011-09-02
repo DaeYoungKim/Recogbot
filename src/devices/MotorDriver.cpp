@@ -8,7 +8,7 @@ namespace Recogbot {
 		
 		condition = true;
 
-		if( !Network::isConnected() ) Network::enable();         // checking network
+		if( !(Network::isConnected()) ) Network::enable();         // checking network
 		if( Network::isConnected ){
 			
 			MWrite_EnableMotor( SERVO_ENABLE, SERVO_ENABLE);     // enable motor driver

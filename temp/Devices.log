@@ -1,0 +1,39 @@
+﻿빌드 시작: 2011-08-19 오전 4:30:48
+     1>2 노드의 "C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\Devices.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "..\temp\Devices.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\\" /Fd"..\temp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\devices\DeviceSwig.cpp ..\src\devices\Joystick.cpp ..\src\devices\kinect.cpp ..\src\devices\LRF.cpp ..\src\devices\Network.cpp ..\src\devices\OmniCamera.cpp ..\src\devices\Psd.cpp ..\src\devices\Wheel.cpp
+         DeviceSwig.cpp
+         Joystick.cpp
+         kinect.cpp
+     1>C:\Users\imfine\Yongcheol(test_clone)\Recogbot\include\opencv2/flann/dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Users\imfine\Yongcheol(test_clone)\Recogbot\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>C:\Users\imfine\Yongcheol(test_clone)\Recogbot\include\opencv2/flann/dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         LRF.cpp
+         Network.cpp
+     1>..\src\devices\Network.cpp(13): warning C4101: 'beginTime' :참조되지 않은 지역 변수입니다.
+         OmniCamera.cpp
+     1>C:\Users\imfine\Yongcheol(test_clone)\Recogbot\include\opencv2/flann/dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Users\imfine\Yongcheol(test_clone)\Recogbot\include\opencv2/flann/dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Psd.cpp
+         Wheel.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\recobotDevices.lib" /NOLOGO /LTCG ..\temp\DeviceSwig.obj
+         ..\temp\Joystick.obj
+         ..\temp\kinect.obj
+         ..\temp\LRF.obj
+         ..\temp\Network.obj
+         ..\temp\OmniCamera.obj
+         ..\temp\Psd.obj
+         ..\temp\Wheel.obj
+         Devices.vcxproj -> C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\..\lib\recobotDevices.lib
+       FinalizeBuildStatus:
+         "..\temp\Devices.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "..\temp\Devices.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\imfine\Yongcheol(test_clone)\Recogbot\MSVC\Devices.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.25

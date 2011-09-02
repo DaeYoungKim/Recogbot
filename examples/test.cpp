@@ -18,6 +18,7 @@ void main(void) {
 
 	while(true){
 		int command;
+		printf("command> ");
 		scanf("%d", &command);
 		switch(command){
 		case 1 :
@@ -30,7 +31,7 @@ void main(void) {
 			motorDriver.rotateLeft(0.1);
 			break;
 		case 4 :
-			motorDriver.rotatetRight(0.1);
+			motorDriver.rotatetRight(0.1);			
 			break;
 		case 5 :
 			motorDriver.driveManual(0.1, 0.1);			
