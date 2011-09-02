@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
 <window height="570" maximized="true" width="800" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
+<coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="121" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="160" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="39" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="85" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="131" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -34,91 +34,35 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="C:/Project/Development/Eclipse_Workspace/GallaxyFaceDetection/res/layout/main.xml" title="main.xml" tooltip="GallaxyFaceDetection/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GallaxyFaceDetection/res/layout/main.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CapstonProject.java" partName="CapstonProject.java" path="C:/Users/imfine/Yongcheol(test_clone)/Recogbot/Eclipse_Workspace/CapstonProject/src/CapstonProject.java" title="CapstonProject.java" tooltip="CapstonProject/src/CapstonProject.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CapstonProject/src/CapstonProject.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="224" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebcamBroadcaster.java" partName="WebcamBroadcaster.java" path="C:/Project/Development/Eclipse_Workspace/WebcamBroadcaster/src/WebcamBroadcaster.java" title="WebcamBroadcaster.java" tooltip="WebcamBroadcaster/src/WebcamBroadcaster.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebcamBroadcaster/src/WebcamBroadcaster.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="338" selectionTopPixel="3367"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GallaxyFaceDetection.java" partName="GallaxyFaceDetection.java" path="C:/Project/Development/Eclipse_Workspace/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/GallaxyFaceDetection.java" title="GallaxyFaceDetection.java" tooltip="GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/GallaxyFaceDetection.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/GallaxyFaceDetection.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="639" selectionTopPixel="84"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FaceDetectionView.java" partName="FaceDetectionView.java" path="C:/Project/Development/Eclipse_Workspace/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/FaceDetectionView.java" title="FaceDetectionView.java" tooltip="GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/FaceDetectionView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/FaceDetectionView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1467" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TCPServer.java" partName="TCPServer.java" path="C:/Project/Development/Eclipse_Workspace/Network/TCPServer/src/TCPServer.java" title="TCPServer.java" tooltip="TCPServer/src/TCPServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TCPServer/src/TCPServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="261" selectionTopPixel="662"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatHandler.java" partName="ChatHandler.java" path="C:/Project/Development/Eclipse_Workspace/Network/TCPServer/src/ChatHandler.java" title="ChatHandler.java" tooltip="TCPServer/src/ChatHandler.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TCPServer/src/ChatHandler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="417" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TCPClient.java" partName="TCPClient.java" path="C:/Project/Development/Eclipse_Workspace/Network/TCPClinet/src/TCPClient.java" title="TCPClient.java" tooltip="TCPClinet/src/TCPClient.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TCPClinet/src/TCPClient.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="821" selectionTopPixel="51"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TCPDesktopServer.java" partName="TCPDesktopServer.java" path="C:/Project/Development/Eclipse_Workspace/Network/TCPDesktopServer/src/TCPDesktopServer.java" title="TCPDesktopServer.java" tooltip="TCPDesktopServer/src/TCPDesktopServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TCPDesktopServer/src/TCPDesktopServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="620" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OpenCV.java" partName="OpenCV.java" path="C:/Project/Development/Eclipse_Workspace/CameraTest/src/dev/imagelab/cameratest/OpenCV.java" title="OpenCV.java" tooltip="CameraTest/src/dev/imagelab/cameratest/OpenCV.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CameraTest/src/dev/imagelab/cameratest/OpenCV.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControlRobot.java" partName="ControlRobot.java" path="C:/Users/imfine/Yongcheol(test_clone)/Recogbot/Eclipse_Workspace/CapstonProject/src/ControlRobot.java" title="ControlRobot.java" tooltip="CapstonProject/src/ControlRobot.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CapstonProject/src/ControlRobot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="729" selectionTopPixel="1131"/>
 </editor>
 </editors>
 <views>
-<view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (84 items)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="209" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="391"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -144,9 +88,13 @@
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
 <child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
@@ -165,10 +113,22 @@
 <filteredTreeFindHistory/>
 </viewState>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -189,9 +149,7 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
-<alwaysOnActionSet id="adt.actionSet.wizards"/>
-<alwaysOnActionSet id="adt.actionSet.refactorings"/>
-<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -231,7 +189,6 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.android.ide.eclipse.ddms.views.DeviceView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
@@ -286,20 +243,20 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1ef8774" ratio="0.6597444" ratioLeft="413" ratioRight="213" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="Devices"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -352,7 +309,7 @@
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" removed="true"/>
 <fastViewBars/>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -406,9 +363,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/FaceDetectionView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/GallaxyFaceDetection.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebcamBroadcaster/src/WebcamBroadcaster.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/GallaxyFaceDetection/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebcamBroadcaster/src/WebcamBroadcaster.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/GallaxyFaceDetection.java"/>
@@ -423,136 +377,152 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TCPDesktopServer/src/TCPDesktopServer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebcamBroadcaster/src/WebcamBroadcaster.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CameraTest/src/dev/imagelab/cameratest/OpenCV.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CapstonProject/src/CapstonProject.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CapstonProject/src/ControlRobot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CapstonProject/src/ControlRobot.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CapstonProject/src/CapstonProject.java"/>
 </editors>
-<item historyLabel="GallaxyFaceDetection.java" index="1">
-<position info="not_deleted" x="399" y="0"/>
-</item>
-<item historyLabel="FaceDetectionView.java" index="0">
-<position info="not_deleted" x="2379" y="0"/>
-</item>
-<item historyLabel="GallaxyFaceDetection.java" index="1">
-<position info="not_deleted" x="399" y="0"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="FaceDetectionView.java" index="0">
-<position info="not_deleted" x="8" y="33"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="GallaxyFaceDetection.java" index="1">
-<position info="not_deleted" x="260" y="20"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="FaceDetectionView.java" index="0">
-<position info="not_deleted" x="528" y="17"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="GallaxyFaceDetection.java" index="1">
-<position info="not_deleted" x="822" y="0"/>
-</item>
-<item historyLabel="WebcamBroadcaster.java" index="2">
-<position info="not_deleted" x="195" y="0"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="WebcamBroadcaster.java" index="4">
+<item historyLabel="WebcamBroadcaster.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
-<position info="not_deleted" x="468" y="0"/>
-</item>
-<item historyLabel="FaceDetectionView.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
-<position info="not_deleted" x="845" y="0"/>
-</item>
-<item historyLabel="WebcamBroadcaster.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
+<item historyLabel="main.xml" index="0"/>
+<item historyLabel="GallaxyFaceDetection.java" index="2">
 <position info="not_deleted" x="832" y="0"/>
 </item>
-<item historyLabel="FaceDetectionView.java" index="6">
+<item historyLabel="FaceDetectionView.java" index="3">
 <position info="not_deleted" x="1391" y="0"/>
 </item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="FaceDetectionView.java" index="6">
+<item historyLabel="main.xml" index="0"/>
+<item historyLabel="FaceDetectionView.java" index="3">
 <position info="not_deleted" x="821" y="0"/>
 </item>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
+<item historyLabel="GallaxyFaceDetection.java" index="2">
 <position info="not_deleted" x="981" y="0"/>
 </item>
-<item historyLabel="main.xml" index="3">
+<item historyLabel="main.xml" index="0">
 <position/>
 </item>
-<item historyLabel="main.xml" index="7">
+<item historyLabel="main.xml" index="4">
 <position info="not_deleted" x="271" y="0"/>
 </item>
-<item historyLabel="main.xml" index="7">
+<item historyLabel="main.xml" index="4">
 <position/>
 </item>
-<item historyLabel="main.xml" index="7">
+<item historyLabel="main.xml" index="4">
 <position/>
 </item>
-<item historyLabel="WebcamBroadcaster.java" index="4">
+<item historyLabel="WebcamBroadcaster.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="TCPServer.java" index="8">
+<item historyLabel="main.xml" index="0"/>
+<item historyLabel="TCPServer.java" index="5">
 <position info="not_deleted" x="261" y="0"/>
 </item>
-<item historyLabel="ChatHandler.java" index="9">
+<item historyLabel="ChatHandler.java" index="6">
 <position info="not_deleted" x="420" y="0"/>
+</item>
+<item historyLabel="TCPClient.java" index="7">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="TCPDesktopServer.java" index="8">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="ChatHandler.java" index="6">
+<position info="not_deleted" x="1059" y="0"/>
+</item>
+<item historyLabel="TCPDesktopServer.java" index="8">
+<position info="not_deleted" x="620" y="0"/>
+</item>
+<item historyLabel="ChatHandler.java" index="6">
+<position info="not_deleted" x="1432" y="0"/>
+</item>
+<item historyLabel="GallaxyFaceDetection.java" index="2">
+<position info="not_deleted" x="639" y="0"/>
+</item>
+<item historyLabel="main.xml" index="0"/>
+<item historyLabel="GallaxyFaceDetection.java" index="2">
+<position info="not_deleted" x="639" y="0"/>
+</item>
+<item historyLabel="FaceDetectionView.java" index="3">
+<position info="not_deleted" x="1992" y="12"/>
+</item>
+<item historyLabel="main.xml" index="0">
+<position/>
+</item>
+<item historyLabel="main.xml" index="4">
+<position/>
+</item>
+<item historyLabel="FaceDetectionView.java" index="3">
+<position info="not_deleted" x="1992" y="12"/>
+</item>
+<item historyLabel="ChatHandler.java" index="9">
+<position info="not_deleted" x="1432" y="0"/>
 </item>
 <item historyLabel="TCPClient.java" index="10">
 <position info="not_deleted" x="821" y="0"/>
 </item>
 <item historyLabel="TCPDesktopServer.java" index="11">
-<position info="not_deleted" x="501" y="0"/>
-</item>
-<item historyLabel="ChatHandler.java" index="9">
-<position info="not_deleted" x="1059" y="0"/>
-</item>
-<item historyLabel="TCPDesktopServer.java" index="11">
 <position info="not_deleted" x="620" y="0"/>
 </item>
-<item historyLabel="ChatHandler.java" index="9">
-<position info="not_deleted" x="1432" y="0"/>
-</item>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
-<position info="not_deleted" x="639" y="0"/>
-</item>
-<item historyLabel="main.xml" index="3"/>
-<item historyLabel="GallaxyFaceDetection.java" index="5">
-<position info="not_deleted" x="639" y="0"/>
-</item>
-<item historyLabel="FaceDetectionView.java" index="6">
-<position info="not_deleted" x="1992" y="12"/>
-</item>
-<item historyLabel="main.xml" index="3">
-<position/>
-</item>
-<item historyLabel="main.xml" index="7">
-<position/>
-</item>
-<item historyLabel="FaceDetectionView.java" index="6">
-<position info="not_deleted" x="1992" y="12"/>
-</item>
-<item historyLabel="ChatHandler.java" index="12">
-<position info="not_deleted" x="1432" y="0"/>
-</item>
-<item historyLabel="TCPClient.java" index="13">
-<position info="not_deleted" x="821" y="0"/>
-</item>
-<item historyLabel="TCPDesktopServer.java" index="14">
-<position info="not_deleted" x="620" y="0"/>
-</item>
-<item historyLabel="WebcamBroadcaster.java" index="15">
+<item historyLabel="WebcamBroadcaster.java" index="12">
 <position info="not_deleted" x="338" y="0"/>
 </item>
-<item active="true" historyLabel="OpenCV.java" index="16">
+<item historyLabel="OpenCV.java" index="13">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="15">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="CapstonProject.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="988" y="46"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="707" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="988" y="46"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="1520" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="988" y="46"/>
+</item>
+<item historyLabel="CapstonProject.java" index="17">
+<position info="not_deleted" x="849" y="0"/>
+</item>
+<item historyLabel="ControlRobot.java" index="16">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item active="true" historyLabel="CapstonProject.java" index="17">
+<position info="not_deleted" x="849" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -561,6 +531,7 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
@@ -571,6 +542,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControlRobot.java" tooltip="CapstonProject/src/ControlRobot.java">
+<persistable path="/CapstonProject/src/ControlRobot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CapstonProject.java" tooltip="CapstonProject/src/CapstonProject.java">
+<persistable path="/CapstonProject/src/CapstonProject.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OpenCV.java" tooltip="CameraTest/src/dev/imagelab/cameratest/OpenCV.java">
 <persistable path="/CameraTest/src/dev/imagelab/cameratest/OpenCV.java"/>
 </file>
@@ -609,12 +586,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraTest.java" tooltip="CameraTest/src/dev/imagelab/cameratest/CameraTest.java">
 <persistable path="/CameraTest/src/dev/imagelab/cameratest/CameraTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SocketCamera.java" tooltip="GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/SocketCamera.java">
-<persistable path="/GallaxyFaceDetection/src/dev/imagelab/gallaxyfacedetection/SocketCamera.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControlRobot.java" tooltip="CapstonProject/src/ControlRobot.java">
-<persistable path="/CapstonProject/src/ControlRobot.java"/>
 </file>
 </mruList>
 </workbench>

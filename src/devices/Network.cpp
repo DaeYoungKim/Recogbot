@@ -1,4 +1,3 @@
-#include <windows.h>
 #include <time.h>
 #include <string.h>
 #include "devices/Network.h"
@@ -8,7 +7,7 @@ namespace Recogbot {
 	const char* Network::CONF_XML = "NRLAB02.xml";
 	bool Network::isConnection = false;
 
-	bool Network::Enable(){
+	bool Network::enable(){
 
 		clock_t beginTime;
 		
@@ -25,18 +24,18 @@ namespace Recogbot {
 		return isConnection;
 	}
 	
-	void Network::Disable(){
+	void Network::disable(){
 
 		NWrite_DisableNetwork();
 		isConnection = false;
 	}
 	
-	bool Network::IsConnected(){
+	bool Network::isConnected(){
 
 		return isConnection;
 	}
 	
-	Network::STATE Network::GetNetworkState(){
+	Network::STATE Network::getNetworkState(){
 
 		STATE state = (STATE) NRead_NetworkState();
 		return state;

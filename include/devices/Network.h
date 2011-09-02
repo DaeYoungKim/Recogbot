@@ -14,17 +14,19 @@ namespace Recogbot {
 	class Network {
 	private:
 		static bool isConnection;       // check to connection
-		static const char* CONF_XML; // path of configure file
+		
 	public:
 		Network();
 		~Network();
 
+		static const char* CONF_XML;    // path of configure file
+
 		static enum STATE {NET_INIT = 1, PRE_OP = 2, SAFE_OP = 4, READY = 8};  // 1 : initing... 2,3 : possible - input  4 : possible - input & output
 						    
-		static bool Enable();    
-		static void Disable();
-		static bool IsConnected();
-		static STATE GetNetworkState();
+		static bool enable();    
+		static void disable();
+		static bool isConnected();
+		static STATE getNetworkState();
 	};
 }
 

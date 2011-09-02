@@ -10,7 +10,7 @@ public class CapstonProject {
     	
     	cp.cr.enableNetworkUsePathString("xml/NRLAB02.xml");
     	System.out.println("Device Num : " + cp.cr.readNetworkDeviceNumber());
-    	System.out.println("\nCurrent State : " + cp.cr.readNetworkDeviceNumber());
+    	System.out.println("\nCurrent State : " + cp.cr.readNetworkState());
     	cp.cr.OperationMode(cp.cr.VELOCITY_MODE, cp.cr.VELOCITY_MODE);
     	System.out.println("\nModeChaged to Velocity Mode... \n");
     	cp.cr.enableMotor(true, true);
