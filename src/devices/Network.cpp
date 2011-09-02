@@ -1,5 +1,6 @@
 #include <time.h>
 #include <string.h>
+#include <stdio.h>
 #include "devices/Network.h"
 
 namespace Recogbot {
@@ -31,7 +32,7 @@ namespace Recogbot {
 	}
 	
 	bool Network::isConnected(){
-
+		
 		return isConnection;
 	}
 	

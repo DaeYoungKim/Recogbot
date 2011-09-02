@@ -9,7 +9,9 @@ namespace Recogbot {
 		condition = true;
 
 		if( !(Network::isConnected()) ) Network::enable();         // checking network
-		if( Network::isConnected ){
+		else printf("network is cnnected...\n");
+
+		if( Network::isConnected() ){
 			
 			MWrite_EnableMotor( SERVO_ENABLE, SERVO_ENABLE);     // enable motor driver
 			MWrite_OperationMode(VELOCITY_MODE, VELOCITY_MODE);  // set velocity mode
