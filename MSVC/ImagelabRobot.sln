@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectConsoleTest", "Kinect
 		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WheelTest", "WheelTest.vcxproj", "{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotorTest", "WheelTest.vcxproj", "{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
 	EndProjectSection
@@ -22,6 +22,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test.vcxproj", "{F6
 	ProjectSection(ProjectDependencies) = postProject
 		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkTest", "NetworkTest.vcxproj", "{A42310C9-DE69-416B-BCC7-214633BD5CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{F69D488A-9168-4D04-8814-7EE76BD0452E}.Debug|Win32.Build.0 = Debug|Win32
 		{F69D488A-9168-4D04-8814-7EE76BD0452E}.Release|Win32.ActiveCfg = Release|Win32
 		{F69D488A-9168-4D04-8814-7EE76BD0452E}.Release|Win32.Build.0 = Release|Win32
+		{A42310C9-DE69-416B-BCC7-214633BD5CCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A42310C9-DE69-416B-BCC7-214633BD5CCD}.Debug|Win32.Build.0 = Debug|Win32
+		{A42310C9-DE69-416B-BCC7-214633BD5CCD}.Release|Win32.ActiveCfg = Release|Win32
+		{A42310C9-DE69-416B-BCC7-214633BD5CCD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

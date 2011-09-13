@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\lib\</OutDir>
     <IntDir>..\temp\$(TargetName)\</IntDir>
-    <TargetName>recobotDevices</TargetName>
+    <TargetName>recogbotDevices</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\lib\</OutDir>

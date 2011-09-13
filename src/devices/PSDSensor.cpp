@@ -1,6 +1,7 @@
 #include "devices/PSDSensor.h"
 #include "devices/Network.h"
 #include "windows.h"
+#include <cstdio>
 namespace Recogbot {
 	PSDSensor::PSDSensor()
 	{

@@ -8,7 +8,6 @@
 #ifndef RECOGBOT_DEVICES_PSD_H
 #define RECOGBOT_DEVICES_PSD_H
 #include "NRLAB02Defv01.h"
-#include <cstdio>
 
 namespace Recogbot {
 	class PSDSensor {

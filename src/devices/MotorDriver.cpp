@@ -29,37 +29,58 @@ namespace Recogbot {
 	}
 
 	int MotorDriver::driveManual(float sv, float rv){
-		if(condition) RWrite_2W_KinematicsDrive(sv, rv, MPS);
+		if(condition) {
+			RWrite_2W_KinematicsDrive(sv, rv, MPS);
+			return true;
+		}
 		else return false;
 	}
 	
 	int MotorDriver::moveForward(float velocity){
-		if(condition) RWrite_TranslationVelocity(velocity);
+		if(condition) {
+			RWrite_TranslationVelocity(velocity);
+			return true;
+		}
 		else return false;
 	}
 	
 	int MotorDriver::moveBackward(float velocity){
-		if(condition) RWrite_TranslationVelocity(-velocity);
+		if(condition) {
+			RWrite_TranslationVelocity(-velocity);
+			return true;
+		}
 		else return false;
 	}
 	
 	int MotorDriver::rotateLeft(float velocity){
-		if(condition) RWrite_RotationVelocity(velocity);
+		if(condition) {
+			RWrite_RotationVelocity(velocity);
+			return true;
+		}
 		else return false;
 	}
 	
 	int MotorDriver::rotatetRight(float velocity){
-		if(condition) RWrite_RotationVelocity(-velocity);
+		if(condition) {
+			RWrite_RotationVelocity(-velocity);
+			return true;
+		}
 		else return false;
 	}
 	
 	int MotorDriver::loadVelocityValue(){
-		if(condition) RRead_2W_KinematicsDrive(strightVelocity, rotationVelocity, MPS);
+		if(condition) {
+			RRead_2W_KinematicsDrive(strightVelocity, rotationVelocity, MPS);
+			return true;
+		}
 		else return false;
 	}
 		
 	int MotorDriver::stop(){
-		if(condition) RWrite_StopDrive();
+		if(condition) {
+			RWrite_StopDrive();
+			return true;
+		}
 		else return false;
 	}
 }
