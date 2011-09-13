@@ -91,18 +91,20 @@
     <ClInclude Include="..\include\devices\Joystick.h" />
     <ClInclude Include="..\include\devices\kinect.h" />
     <ClInclude Include="..\include\devices\LRF.h" />
+    <ClInclude Include="..\include\devices\MotorDriver.h" />
+    <ClInclude Include="..\include\devices\Network.h" />
     <ClInclude Include="..\include\devices\OmniCamera.h" />
-    <ClInclude Include="..\include\devices\Psd.h" />
-    <ClInclude Include="..\include\devices\Wheel.h" />
+    <ClInclude Include="..\include\devices\PSDSensor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\devices\DeviceSwig.cpp" />
     <ClCompile Include="..\src\devices\Joystick.cpp" />
     <ClCompile Include="..\src\devices\kinect.cpp" />
     <ClCompile Include="..\src\devices\LRF.cpp" />
+    <ClCompile Include="..\src\devices\MotorDriver.cpp" />
+    <ClCompile Include="..\src\devices\Network.cpp" />
     <ClCompile Include="..\src\devices\OmniCamera.cpp" />
-    <ClCompile Include="..\src\devices\Psd.cpp" />
-    <ClCompile Include="..\src\devices\Wheel.cpp" />
+    <ClCompile Include="..\src\devices\PSDSensor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

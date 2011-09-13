@@ -46,6 +46,7 @@ typedef struct {
 	int controlword;
 } PSD, *PSD_handle;
 
+typedef unsigned char byte;
 
 //=================================================================================
 //	Information
