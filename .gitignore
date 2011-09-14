@@ -2,6 +2,9 @@
 [Tt]humbs.db
 *.DS_Store
 
+#Eclipse
+Eclipse_Workspace/
+
 #Visual Studio Files
 *.[Oo]bj
 *.exe
