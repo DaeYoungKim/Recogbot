@@ -2,8 +2,11 @@
 [Tt]humbs.db
 *.DS_Store
 
-#Eclipse
+#Recogbot - Eclipse
 Eclipse_Workspace/
+
+#Recogbot - lib files
+recogbotDevices.lib
 
 #Visual Studio Files
 *.[Oo]bj
