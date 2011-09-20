@@ -1,11 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 OmniCameraTest", "ImagelabRobot.vcxproj", "{DF29F560-9777-46CE-928E-56895CE142DA}"
-	ProjectSection(ProjectDependencies) = postProject
-		{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE} = {241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 KinectConsoleTest", "KinectConsoleTest.vcxproj", "{9D8F70FE-695C-41B7-861F-6577FD44FB94}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1A8C6619-D097-4F69-AC05-97610A43A508} = {1A8C6619-D097-4F69-AC05-97610A43A508}
@@ -30,16 +25,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 RecogbotLib", "RecogbotLi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 PSDTest", "PSDTest.vcxproj", "{E081E6CF-8FF7-47AB-BDEB-854A4C766882}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 OmniCameraTest", "ImagelabRobot.vcxproj", "{DF29F560-9777-46CE-928E-56895CE142DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.Build.0 = Debug|Win32
-		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.ActiveCfg = Release|Win32
-		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.Build.0 = Release|Win32
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Debug|Win32.Build.0 = Debug|Win32
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Release|Win32.ActiveCfg = Release|Win32
@@ -64,6 +57,10 @@ Global
 		{E081E6CF-8FF7-47AB-BDEB-854A4C766882}.Debug|Win32.Build.0 = Debug|Win32
 		{E081E6CF-8FF7-47AB-BDEB-854A4C766882}.Release|Win32.ActiveCfg = Release|Win32
 		{E081E6CF-8FF7-47AB-BDEB-854A4C766882}.Release|Win32.Build.0 = Release|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.Build.0 = Debug|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.ActiveCfg = Release|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
