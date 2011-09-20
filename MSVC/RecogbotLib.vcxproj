@@ -11,19 +11,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9D8F70FE-695C-41B7-861F-6577FD44FB94}</ProjectGuid>
+    <ProjectGuid>{1A8C6619-D097-4F69-AC05-97610A43A508}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>KinectConsoleTest</RootNamespace>
-    <ProjectName>2 KinectConsoleTest</ProjectName>
+    <RootNamespace>RecogbotLib</RootNamespace>
+    <ProjectName>1 RecogbotLib</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
@@ -39,16 +39,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\</OutDir>
+    <OutDir>..\lib\</OutDir>
     <IntDir>..\temp\$(TargetName)\</IntDir>
-    <TargetName>test_kinect_d</TargetName>
+    <TargetName>recogbot</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\</OutDir>
+    <OutDir>..\lib\</OutDir>
     <IntDir>..\temp\$(TargetName)\</IntDir>
-    <TargetName>test_kinect</TargetName>
+    <TargetName>recogbotLib</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -56,16 +54,12 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
-      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>MSRKinectNUI.lib;recogbot.lib;opencv_core220d.lib;opencv_highgui220d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\lib\;..\lib\opencv\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -76,20 +70,40 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>MSRKinectNUI.lib;recogbot.lib;opencv_core220d.lib;opencv_highgui220d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\lib\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\examples\test_kinect.cpp" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\devices\DeviceSwig.h" />
+    <ClInclude Include="..\include\devices\ImageLib.h" />
+    <ClInclude Include="..\include\devices\Joystick.h" />
+    <ClInclude Include="..\include\devices\kinect.h" />
+    <ClInclude Include="..\include\devices\LRF.h" />
+    <ClInclude Include="..\include\devices\MotorDriver.h" />
+    <ClInclude Include="..\include\devices\Network.h" />
+    <ClInclude Include="..\include\devices\OmniCamera.h" />
+    <ClInclude Include="..\include\devices\PSDSensor.h" />
+    <ClInclude Include="..\include\utils\DB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\devices\DeviceSwig.cpp" />
+    <ClCompile Include="..\src\devices\Joystick.cpp" />
+    <ClCompile Include="..\src\devices\kinect.cpp" />
+    <ClCompile Include="..\src\devices\LRF.cpp" />
+    <ClCompile Include="..\src\devices\MotorDriver.cpp" />
+    <ClCompile Include="..\src\devices\Network.cpp" />
+    <ClCompile Include="..\src\devices\OmniCamera.cpp" />
+    <ClCompile Include="..\src\devices\PSDSensor.cpp" />
+    <ClCompile Include="..\src\utils\DB.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

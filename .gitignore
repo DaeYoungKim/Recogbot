@@ -6,7 +6,10 @@
 Eclipse_Workspace/
 
 #Recogbot - lib files
-recogbotDevices.lib
+recogbot.lib
+
+#Recogbot - DB
+[Dd][Bb]/
 
 #Visual Studio Files
 *.[Oo]bj
