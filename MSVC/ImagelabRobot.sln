@@ -24,8 +24,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 RecogbotLib", "RecogbotLib.vcxproj", "{1A8C6619-D097-4F69-AC05-97610A43A508}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 PSDTest", "PSDTest.vcxproj", "{E081E6CF-8FF7-47AB-BDEB-854A4C766882}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A8C6619-D097-4F69-AC05-97610A43A508} = {1A8C6619-D097-4F69-AC05-97610A43A508}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 OmniCameraTest", "ImagelabRobot.vcxproj", "{DF29F560-9777-46CE-928E-56895CE142DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A8C6619-D097-4F69-AC05-97610A43A508} = {1A8C6619-D097-4F69-AC05-97610A43A508}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

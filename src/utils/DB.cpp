@@ -12,6 +12,7 @@ namespace Recogbot {
 	void DB::createFolder(const char* name){
 		
 		sprintf(_text,"../db/%s",name);
+		mkdir("../db");
 		mkdir(_text);
 	}
 
@@ -46,5 +47,17 @@ namespace Recogbot {
 	IplImage* DB::readImgwithCnt(unsigned cnt){
 		sprintf(_text,"../db/%s/%05d.jpg",_folderName.c_str(),cnt++);
 		return cvLoadImage(_text);
+	}
+
+	void DB::setCnt(unsigned val){
+		_cntImg = val;
+	}
+
+	void DB::initCnt(){
+		_cntImg = 0;
+	}
+
+	unsigned DB::getCnt(){
+		return _cntImg;
 	}
 }

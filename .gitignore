@@ -32,6 +32,7 @@ recogbot.lib
 *.log
 *.sbr
 *.sdf
+*.opensdf
 ipch/
 obj/
 [Dd]ebug*/

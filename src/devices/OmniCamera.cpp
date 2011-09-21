@@ -117,9 +117,9 @@ namespace Recogbot {
 	void OmniCamera::grab(IplImage *img) {
 		//Sleep(400);
 		PvCaptureQueueFrame(_camera.handle,&(_camera.frame),0);
-		printf("waiting for the frame ...\n");
+		//printf("waiting for the frame ...\n");
         PvCaptureWaitForFrameDone(_camera.handle,&(_camera.frame),PVINFINITE);
-		printf("frame's done ...\n, width %d height %d depth %d size %d\n",_camera.frame.Width,_camera.frame.Height,_camera.frame.BitDepth, _camera.frame.ImageBufferSize);
+		//printf("frame's done ...\n, width %d height %d depth %d size %d\n",_camera.frame.Width,_camera.frame.Height,_camera.frame.BitDepth, _camera.frame.ImageBufferSize);
 		
 		PvUtilityColorInterpolate(&_camera.frame,&img->imageData[2],&img->imageData[1],&img->imageData[0],2,0);
 		

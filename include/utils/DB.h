@@ -31,6 +31,8 @@ namespace Recogbot {
 
 		void initCnt();
 
+		unsigned getCnt();
+
 	private:
 		unsigned _cntImg;
 		std::string _folderName;
