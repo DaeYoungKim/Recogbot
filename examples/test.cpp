@@ -12,9 +12,9 @@ void main(void)
 	db.createFolder("korea");
 	db.locateFolder("korea");
 	IplImage *img=cvCreateImage(cvSize(10,10),8,3);
-	db.saveImg(img);
-	db.saveImg(img);
-	db.saveImg(img);
+	db.saveImg(img,"test");
+	db.saveImg(img,"test");
+	db.saveImg(img,"test");
 	/*return;
 	PSDSensor psdtest;
 	int i;

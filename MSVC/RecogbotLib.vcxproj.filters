@@ -42,6 +42,12 @@
     <ClInclude Include="..\include\devices\Network.h">
       <Filter>Devices</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\devices\KinectPlayer.h">
+      <Filter>Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\DBforKinect.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\devices\DeviceSwig.cpp">
@@ -70,6 +76,12 @@
     </ClCompile>
     <ClCompile Include="..\src\devices\Network.cpp">
       <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\devices\KinectPlayer.cpp">
+      <Filter>Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\DBforKinect.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

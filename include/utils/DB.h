@@ -13,19 +13,29 @@
 namespace Recogbot {
 	class DB {
 	public:
-		DB();
+		DB(char *folderName="none");
 
 		void createFolder(const char* name);
 
 		void locateFolder(const char* name);
 
-		void saveImg(IplImage* img);
+		void saveImg(IplImage* img, const char* tag);
 
-		void saveImgWithCnt(IplImage* img, unsigned cnt);
+		void saveImgWithCnt(IplImage* img, const char* tag, unsigned cnt);
 
-		IplImage* readImg();
+		IplImage* readImg(const char* tag);
 
-		IplImage* readImgwithCnt(unsigned cnt);
+		IplImage* readImgwithCnt(const char* tag, unsigned cnt);
+
+		IplImage* readGrayImg(const char* tag);
+
+		void saveArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements);
+
+		void saveArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements, unsigned cnt);
+
+		void readArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements);
+
+		void readArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements, unsigned cnt);
 
 		void setCnt(unsigned val);
 
@@ -33,10 +43,19 @@ namespace Recogbot {
 
 		unsigned getCnt();
 
-	private:
-		unsigned _cntImg;
+		void increaseCnt();
+
+		void decreaseCnt();
+
+	protected:
+
+		unsigned _cnt;
+
 		std::string _folderName;
+
 		char _text[256];
 	};
+
+	
 }
 #endif

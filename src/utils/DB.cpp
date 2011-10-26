@@ -4,9 +4,9 @@
 #include <assert.h>
 namespace Recogbot {
 
-	DB::DB() {
-		_cntImg=0;
-		_folderName="none";
+	DB::DB(char *folderName) {
+		_cnt=0;
+		_folderName=folderName;
 	}
 
 	void DB::createFolder(const char* name){
@@ -20,44 +20,76 @@ namespace Recogbot {
 		_folderName=name;
 	}
 
-	void DB::saveImg(IplImage* img){
+	void DB::saveImg(IplImage* img, const char* tag){
 		assert(strcmp(_folderName.c_str(),"none")!=0);
 		assert(img!=0);
 
 		createFolder(_folderName.c_str());
 			
-		sprintf(_text,"../db/%s/%05d.jpg",_folderName.c_str(),_cntImg++);
+		sprintf(_text,"../db/%s/%05d_%s.jpg",_folderName.c_str(),_cnt, tag);
 		cvSaveImage(_text,img);
 	}
 
-	void DB::saveImgWithCnt(IplImage* img, unsigned cnt){
+	void DB::saveImgWithCnt(IplImage* img, const char* tag, unsigned cnt){
 		assert(img!=0);
 
 		createFolder(_folderName.c_str());
 
-		sprintf(_text,"../db/%s/%05d.jpg",_folderName.c_str(),cnt);
+		sprintf(_text,"../db/%s/%05d_%s.jpg",_folderName.c_str(),_cnt, tag);
 		cvSaveImage(_text,img);
+		_cnt = cnt;
 	}
 
-	IplImage* DB::readImg(){
-		sprintf(_text,"../db/%s/%05d.jpg",_folderName.c_str(),_cntImg++);
+	IplImage* DB::readImg(const char* tag){
+		sprintf(_text,"../db/%s/%05d_%s.jpg",_folderName.c_str(),_cnt, tag);
 		return cvLoadImage(_text);
 	}
 
-	IplImage* DB::readImgwithCnt(unsigned cnt){
-		sprintf(_text,"../db/%s/%05d.jpg",_folderName.c_str(),cnt++);
+	IplImage* DB::readGrayImg(const char* tag){
+		sprintf(_text,"../db/%s/%05d_%s.jpg",_folderName.c_str(),_cnt, tag);
+		return cvLoadImage(_text,0);
+	}
+
+	IplImage* DB::readImgwithCnt(const char* tag, unsigned cnt){
+		sprintf(_text, "../db/%s/%05d_%s.jpg", _folderName.c_str(), cnt, tag);
 		return cvLoadImage(_text);
 	}
 
-	void DB::setCnt(unsigned val){
-		_cntImg = val;
+	void DB::saveArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements) {
+		sprintf(_text, "../db/%s/%05d_%s.arr", _folderName.c_str(), _cnt, tag );
+		FILE* pf = fopen(_text,"wb");
+		fwrite(arrPtr, nBytes, nElements, pf);
+		fclose(pf);
 	}
 
-	void DB::initCnt(){
-		_cntImg = 0;
+	void DB::saveArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements, unsigned cnt) {
+		sprintf(_text, "../db/%s/%05d_%s.arr", _folderName.c_str(), cnt, tag);
+		FILE* pf = fopen(_text, "wb");
+		fwrite(arrPtr, nBytes, nElements, pf);
+		fclose(pf);
 	}
 
-	unsigned DB::getCnt(){
-		return _cntImg;
+	void DB::readArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements) {
+		sprintf(_text, "../db/%s/%05d_%s.arr", _folderName.c_str(), _cnt, tag);
+		FILE* pf = fopen(_text, "rb");
+		fread(arrPtr, nBytes, nElements, pf);
+		fclose(pf);
 	}
+
+	void DB::readArray(void *arrPtr, const char* tag, size_t nBytes, size_t nElements, unsigned cnt) {
+		sprintf(_text, "../db/%s/%05d_%s.arr", _folderName.c_str(), cnt, tag);
+		FILE* pf = fopen(_text, "rb");
+		fread(arrPtr, nBytes, nElements, pf);
+		fclose(pf);
+	}
+
+	void DB::setCnt(unsigned val) {	_cnt = val; }
+
+	void DB::initCnt() { _cnt = 0; }
+
+	unsigned DB::getCnt() { return _cnt; }
+
+	void DB::increaseCnt() { ++_cnt; }
+
+	void DB::decreaseCnt() { --_cnt; }
 }

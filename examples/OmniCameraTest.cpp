@@ -17,7 +17,8 @@ void main(void) {
 	cvNamedWindow("w");
 	while(omnicam.isConnected()) {
 		omnicam.grab(frame);
-		db.saveImg(frame);
+		db.saveImg(frame,"omni");
+		db.increaseCnt();
 		cout << "frame " << db.getCnt() << endl;
 		cvShowImage("w",frame);
 		cvWaitKey(10);
