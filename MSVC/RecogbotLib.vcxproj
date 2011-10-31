@@ -94,6 +94,10 @@
     <ClInclude Include="..\include\devices\Network.h" />
     <ClInclude Include="..\include\devices\OmniCamera.h" />
     <ClInclude Include="..\include\devices\PSDSensor.h" />
+    <ClInclude Include="..\include\process\KinectPoseRecognizer.h" />
+    <ClInclude Include="..\include\process\LRFClientTracker.h" />
+    <ClInclude Include="..\include\process\TCPServer.h" />
+    <ClInclude Include="..\include\Recogbot.h" />
     <ClInclude Include="..\include\utils\DB.h" />
     <ClInclude Include="..\include\utils\DBforKinect.h" />
   </ItemGroup>
@@ -107,6 +111,10 @@
     <ClCompile Include="..\src\devices\Network.cpp" />
     <ClCompile Include="..\src\devices\OmniCamera.cpp" />
     <ClCompile Include="..\src\devices\PSDSensor.cpp" />
+    <ClCompile Include="..\src\process\KinectPoseRecognizer.cpp" />
+    <ClCompile Include="..\src\process\LRFClientTracker.cpp" />
+    <ClCompile Include="..\src\process\TCPServer.cpp" />
+    <ClCompile Include="..\src\Recogbot.cpp" />
     <ClCompile Include="..\src\utils\DB.cpp" />
     <ClCompile Include="..\src\utils\DBforKinect.cpp" />
   </ItemGroup>

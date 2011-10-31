@@ -10,6 +10,9 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{c6422b7f-553d-4a59-a14e-7d91ce3f142a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{86e6aba8-0755-4cda-b644-aed064f46cb1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\devices\DeviceSwig.h">
@@ -48,6 +51,16 @@
     <ClInclude Include="..\include\utils\DBforKinect.h">
       <Filter>Utils</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\process\KinectPoseRecognizer.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Recogbot.h" />
+    <ClInclude Include="..\include\process\TCPServer.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\process\LRFClientTracker.h">
+      <Filter>Process</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\devices\DeviceSwig.cpp">
@@ -82,6 +95,16 @@
     </ClCompile>
     <ClCompile Include="..\src\utils\DBforKinect.cpp">
       <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Recogbot.cpp" />
+    <ClCompile Include="..\src\process\KinectPoseRecognizer.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\LRFClientTracker.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\TCPServer.cpp">
+      <Filter>Process</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
